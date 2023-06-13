@@ -808,6 +808,7 @@ ul {
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #2e2f42;
 }
 
 .input-modal:focus-within + .icon-input {
@@ -850,7 +851,6 @@ ul {
 .textarea-modal:focus {
   border-color: #4d5ae5;
 }
-
 .checkbox-container {
   margin-bottom: 24px;
 }
@@ -876,7 +876,9 @@ ul {
   fill: transparent;
   margin-right: 8px;
 }
-
+.checkbox-span:focus {
+  fill: #4d5ae5;
+}
 .checkbox-input:checked + .checkbox-form > .checkbox-span {
   background-color: #404bbf;
   border: none;
