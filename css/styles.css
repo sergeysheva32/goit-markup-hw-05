@@ -880,7 +880,7 @@ ul {
 .checkbox-input:checked + .checkbox-form > .checkbox-span {
   background-color: #404bbf;
   border: none;
-  fill: #ffffff;
+  fill: var(--color-button);
 }
 
 .privacy-policy {
@@ -903,4 +903,8 @@ ul {
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin: auto;
+}
+
+.container-comment {
+  margin-bottom: 16px;
 }
